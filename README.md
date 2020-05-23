@@ -4,15 +4,7 @@ languages:
 - nodejs
 - javascript
 products:
-- azure
-- azure-app-service
-description: "This sample demonstrates a tiny Hello World Node.js app for Azure App Service."
+- aws
+- aws codedeploy
+description: "This sample, originally from Microsoft Open Source,  demonstrates a tiny Hello World Node.js app deployed to an EC2 instance on AWS using CodeDeploy."
 ---
-
-# Node.js Hello World
-
-This sample demonstrates a tiny Hello World node.js app for [App Service Web App](https://docs.microsoft.com/azure/app-service-web).
-
-## Contributing
-
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.

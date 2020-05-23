@@ -2,10 +2,10 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ec2-user/test-nodejs
+    destination: /tmp/lol/test-nodejs
 
 hooks:
-  BeforeInstall:
+  AfterInstall:
     - location: installDep.sh
       runas: ec2-user
   ApplicationStart:
